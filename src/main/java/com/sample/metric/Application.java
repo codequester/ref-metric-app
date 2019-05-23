@@ -18,7 +18,7 @@ public class Application {
 	
 	@RequestMapping(value="/")
 	String getAppInfo() {
-		return "This is a Metric emulation app edited via che";
+		return "This is a Metric emulation app";
 	}
 	
 	@RequestMapping(value="/getdepth")
