@@ -18,7 +18,7 @@ public class Application {
 	
 	@RequestMapping(value="/")
 	String getAppInfo() {
-		return "Demo Application Running On Che";
+		return "Demo Application Running On Cheee";
 	}
 	
 	@RequestMapping(value="/getdepth")
